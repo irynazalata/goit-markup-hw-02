@@ -1,0 +1,110 @@
+/* Колір основного тексту #757575 */
+/* Вторинний колір тексту #212121 */
+/* акцент #2196F3 */
+/* Білий колір #ffffff */
+/* Основний колір фону #E5E5E5 */
+/* Вторинний колір фону #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-wh-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  background: var(--primary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffffff;
+}
+/* Logo */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo span {
+  color: var(--accent-color);
+}
+
+.page-header .logo {
+  color: #000000;
+}
+
+.footer .logo {
+  color: var(--primary-wh-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Header contacts */
+
+.header-contacts a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* Footer */
+/* Footer contacts */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.footer-contacts {
+  color: var(--primary-wh-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contacts a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
