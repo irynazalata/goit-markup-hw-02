@@ -1,0 +1,72 @@
+h1,
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+/* Hero */
+
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-wh-color);
+}
+
+.hero-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-wh-color);
+  background-color: var(--accent-color);
+}
+
+/* Benefits */
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Activity */
+
+.activity-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team-member .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-member .occupation {
+  font-size: 16px;
+  line-height: 1.19;
+}
