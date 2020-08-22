@@ -2,7 +2,6 @@
 /* Вторинний колір тексту #212121 */
 /* акцент #2196F3 */
 /* Білий колір #ffffff */
-/* Основний колір фону #E5E5E5 */
 /* Вторинний колір фону #2F303A */
 
 :root {
@@ -10,15 +9,15 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-wh-color: #ffffff;
-  --primary-bg-color: #e5e5e5;
   --secondary-bg-color: #2f303a;
 }
 
 body {
   font-family: Roboto, sans-serif;
+  font-weight: 400;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
-  background: var(--primary-bg-color);
+  background-color: var(--primary-wh-color);
 }
 
 .list {
@@ -30,8 +29,9 @@ a {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: var(--primary-wh-color);
 }
+
 /* Logo */
 
 .logo {
@@ -55,11 +55,11 @@ header {
 /* Site nav */
 
 .site-nav .link {
-  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -95,7 +95,6 @@ header {
 
 .footer-contacts {
   color: var(--primary-wh-color);
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -103,7 +102,6 @@ header {
 
 .footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
