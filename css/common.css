@@ -106,3 +106,8 @@ header {
   font-size: 14px;
   line-height: 1.71;
 }
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--accent-color);
+}
