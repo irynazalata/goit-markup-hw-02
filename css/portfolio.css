@@ -13,7 +13,8 @@
   border-width: 0;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary-wh-color);
   background-color: var(--accent-color);
 }
