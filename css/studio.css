@@ -1,15 +1,27 @@
 h1,
 h2,
 h3 {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--title-text-color);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   background-color: var(--secondary-bg-color);
 }
 
 .hero-title {
+  width: 696px;
+  margin: 0 auto 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -20,6 +32,9 @@ h3 {
 }
 
 .hero-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -35,7 +50,37 @@ h3 {
 
 /* Benefits */
 
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits .list-item {
+  width: 270px;
+}
+
+.benefits .list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 .benefits-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -51,23 +96,62 @@ h3 {
 
 /* Activity */
 
+.activity {
+  padding-bottom: 94px;
+}
+
 .activity-title {
+  margin-bottom: 50px;
+  text-align: center;
   font-size: 36px;
   line-height: 1.17;
+}
+
+.activity .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity .list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Team */
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
+.team .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-title {
+  margin-bottom: 50px;
+  text-align: center;
   font-size: 36px;
   line-height: 1.17;
 }
 
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.team-member img {
+  margin-bottom: 30px;
+}
 .team-member .name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
